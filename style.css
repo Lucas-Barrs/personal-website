@@ -58,3 +58,29 @@ h3{
 html{
   background-color: lemonchiffon;
 }
+#portHead{
+  margin-top: 50px;
+  text-align: center;
+  /* text-shadow: darkorchid; */
+  font-weight: 100;
+  font-size: 2rem;
+  border-bottom: 10px double #260130;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.zoo{
+  display:flex;
+  flex-wrap: wrap;
+}
+.portPic{
+  max-width: 200px;
+}
+.grocery{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
