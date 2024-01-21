@@ -94,5 +94,66 @@ html{
   margin-top: 100px;
 }
 h3{
-  /* border-bottom:double underline 5px purple; */
+  border-bottom:double underline 5px purple;
+}
+/* .catPics{ */
+  /* display: flexblock; */
+  /* flex-direction:row; */
+  /* flex-wrap: wrap-reverse; */
+  /* max-height: 150px; */
+  /* max-width: 30ß%; */
+  /* grid-row-start: 1; */
+  /* grid-row-end: span 1; */
+  /* grid-column-start: 1; */
+  /* grid-column-end: span 3;  */
+/* }  */
+.crochet{
+  margin-top: 15px;
+}
+.catSection{
+  margin-bottom: 10px;
+  /* display: grid; */
+  /* grid-template-columns: 50% 50%; */
+  /* grid-template-rows: 800px 400px 400px; */
+}
+#cats{
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+}
+/* #catPic1{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
+#catPic2{
+  grid-row-start: 2;
+  grid-row-end: span 1;
+  grid-column-start: 2;
+  grid-column-end: span 1;
+} */
+/* #catPic3{ */
+  /* grid-row-start: 3; */
+  /* grid-row-end: span 1; */
+  /* grid-column-start: 1; */
+  /* grid-column-end: span 1; */
+/* } */
+/* #catPic{
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: span 2;
+} */
+caption{
+  align-content: center;
+}
+#cHead{
+  text-align: center;
+  font-size: x-large;
+}
+#sweetBabies{
+  font-size: larger;
+  text-align: center;
 }
