@@ -164,3 +164,21 @@ caption{
 .aboutpics{
   max-width: 50%;
 }
+input[type=text]{
+  font-size: 20pt;
+}
+.contactForm{
+  font-size: 18pt;
+  /* display: flexbox;
+  flex-direction: column;
+  justify-content: center; */
+}
+#email{
+  width: 350px;
+}
+#name{
+  width: 300px
+}
+textarea{
+  font-size: 15pt;
+}
