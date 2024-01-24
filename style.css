@@ -91,32 +91,44 @@ html{
 .container{
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-around;
+  width:fit-content;
+  align-items: center;
+  /* align-items: baseline; */
+  /* justify-content: space-around; */
+  
+}
+@media (min-width: 1210px) {
+  .zoo, .grocery {
+    flex-direction: column;
+    font-size:xx-large;
+  }
 }
 .zoo{
   display:flex;
   flex-wrap: wrap;
-  margin-left: 10%;
-  margin-right: 10%;
-  align-items: baseline;
+  text-align: center;
+  margin: 5% 5% 5% 5%;
+  padding: 10px;
+  border:#260130 10px solid;
+  /* width: calc((100%-20%)/3); */
+  justify-content: space-around;
+  width: 80%;
+  /* font-size:large; */
 }
 .portPic{
   max-width: 200px;
 }
-/* .grocery{
+.grocery{
   display:flex;
   flex-wrap: wrap;
   text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
-} */
-.grocery{
-  display:grid;
-
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 5% 5% 5% 5%;
+  padding: 10px;
+  border:#260130 10px solid;
+  /* width: calc((100%-20%)/3); */
+  width: 80%;
+  justify-content: space-around;
+  /* font-size:large; */
 }
 .homebody{
   margin-left: 20%;
@@ -214,6 +226,9 @@ input[type=text]{
 textarea{
   font-size: 15pt;
 }
-#zooCap{
-  margin-bottom: 150px;
+/* #zooCap{
+  margin-bottom: 20px;
+} */
+.submitBtn:hover{
+background-color: #d081fd;
 }
