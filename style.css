@@ -11,6 +11,7 @@
   padding: 10px;
   display: flex;
   justify-content: space-between;
+  z-index: 1;
 }
 .nav2{
   box-shadow: 0 0 12px -2px rgb(99, 0, 132);
@@ -22,10 +23,11 @@
   background-color: #d081fd;
   color: rgb(247, 251, 13);
   display: flex;
-  height: 80px;
+  height: 20px;
   padding: 10px;
   display: flex;
   justify-content:space-evenly;
+  z-index: 1;
   /* margin-top: 50px; */
 }
 .fLink{
@@ -97,13 +99,21 @@ html{
   flex-wrap: wrap;
   margin-left: 10%;
   margin-right: 10%;
+  align-items: baseline;
 }
 .portPic{
   max-width: 200px;
 }
-.grocery{
+/* .grocery{
   display:flex;
   flex-wrap: wrap;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+.grocery{
+  display:grid;
+
   text-align: center;
   margin-left: 10%;
   margin-right: 10%;
